@@ -1,7 +1,5 @@
-/**
- * If possible, put your minimal reproduction in this file, but feel free to
- * create other files elsewhere in the project if necessary.
- *
- * Once you have a minimal reproduction, commit it and push it to a public
- * GitHub repo.
- */
+import { echo as echoB } from "@utils/echo";
+import { echo as echoA } from "./utils/echo";
+
+echoA("Hello, world A!");
+echoB("Hello, world B!");
